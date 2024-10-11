@@ -1,0 +1,971 @@
+2024-10-11T00:02:11.323+05:00  INFO 18976 --- [weatherbot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T00:02:11.334+05:00  INFO 18976 --- [weatherbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T00:02:11.355+05:00  INFO 18976 --- [weatherbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T00:02:16.360+05:00  INFO 12820 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 12820 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T00:02:16.363+05:00  INFO 12820 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T00:02:16.422+05:00  INFO 12820 --- [weatherbot] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T00:02:16.423+05:00  INFO 12820 --- [weatherbot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T00:02:16.423+05:00  INFO 12820 --- [weatherbot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T00:02:17.328+05:00  INFO 12820 --- [weatherbot] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T00:02:17.399+05:00  INFO 12820 --- [weatherbot] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+2024-10-11T00:02:18.190+05:00  INFO 12820 --- [weatherbot] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T00:02:18.205+05:00  INFO 12820 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T00:02:18.205+05:00  INFO 12820 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T00:02:18.286+05:00  INFO 12820 --- [weatherbot] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T00:02:18.286+05:00  INFO 12820 --- [weatherbot] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1863 ms
+2024-10-11T00:02:18.454+05:00  INFO 12820 --- [weatherbot] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T00:02:18.521+05:00  INFO 12820 --- [weatherbot] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T00:02:18.569+05:00  INFO 12820 --- [weatherbot] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T00:02:18.875+05:00  INFO 12820 --- [weatherbot] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T00:02:18.908+05:00  INFO 12820 --- [weatherbot] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T00:02:19.087+05:00  INFO 12820 --- [weatherbot] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7331236c
+2024-10-11T00:02:19.090+05:00  INFO 12820 --- [weatherbot] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T00:02:20.260+05:00  INFO 12820 --- [weatherbot] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T00:02:20.299+05:00  INFO 12820 --- [weatherbot] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T00:02:20.891+05:00  WARN 12820 --- [weatherbot] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T00:02:21.279+05:00  INFO 12820 --- [weatherbot] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T00:02:21.314+05:00  INFO 12820 --- [weatherbot] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T00:02:21.327+05:00  INFO 12820 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 5.568 seconds (process running for 6.37)
+2024-10-11T00:20:53.897+05:00  INFO 12820 --- [weatherbot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T00:20:53.901+05:00  INFO 12820 --- [weatherbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T00:20:53.906+05:00  INFO 12820 --- [weatherbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T00:24:38.983+05:00  INFO 2404 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 2404 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T00:24:38.986+05:00  INFO 2404 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T00:24:39.049+05:00  INFO 2404 --- [weatherbot] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T00:24:39.049+05:00  INFO 2404 --- [weatherbot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T00:24:39.050+05:00  INFO 2404 --- [weatherbot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T00:24:39.998+05:00  INFO 2404 --- [weatherbot] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T00:24:40.069+05:00  INFO 2404 --- [weatherbot] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+2024-10-11T00:24:40.858+05:00  INFO 2404 --- [weatherbot] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T00:24:40.871+05:00  INFO 2404 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T00:24:40.872+05:00  INFO 2404 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T00:24:40.954+05:00  INFO 2404 --- [weatherbot] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T00:24:40.955+05:00  INFO 2404 --- [weatherbot] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1904 ms
+2024-10-11T00:24:41.136+05:00  INFO 2404 --- [weatherbot] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T00:24:41.211+05:00  INFO 2404 --- [weatherbot] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T00:24:41.255+05:00  INFO 2404 --- [weatherbot] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T00:24:41.560+05:00  INFO 2404 --- [weatherbot] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T00:24:41.592+05:00  INFO 2404 --- [weatherbot] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T00:24:41.767+05:00  INFO 2404 --- [weatherbot] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f94cc29
+2024-10-11T00:24:41.768+05:00  INFO 2404 --- [weatherbot] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T00:24:42.787+05:00  INFO 2404 --- [weatherbot] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T00:24:42.840+05:00  INFO 2404 --- [weatherbot] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T00:24:43.450+05:00  WARN 2404 --- [weatherbot] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T00:24:44.631+05:00  INFO 2404 --- [weatherbot] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T00:24:44.670+05:00  INFO 2404 --- [weatherbot] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T00:24:44.686+05:00  INFO 2404 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 6.277 seconds (process running for 7.112)
+2024-10-11T00:28:15.404+05:00  INFO 2404 --- [weatherbot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T00:28:15.408+05:00  INFO 2404 --- [weatherbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T00:28:15.415+05:00  INFO 2404 --- [weatherbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T08:40:31.964+05:00  INFO 21144 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 21144 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T08:40:31.967+05:00  INFO 21144 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T08:40:32.141+05:00  INFO 21144 --- [weatherbot] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T08:40:32.142+05:00  INFO 21144 --- [weatherbot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T08:40:32.142+05:00  INFO 21144 --- [weatherbot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T08:40:33.448+05:00  INFO 21144 --- [weatherbot] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T08:40:33.538+05:00  INFO 21144 --- [weatherbot] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interface.
+2024-10-11T08:40:34.486+05:00  INFO 21144 --- [weatherbot] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T08:40:34.503+05:00  INFO 21144 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T08:40:34.503+05:00  INFO 21144 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T08:40:34.613+05:00  INFO 21144 --- [weatherbot] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T08:40:34.615+05:00  INFO 21144 --- [weatherbot] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2472 ms
+2024-10-11T08:40:34.975+05:00  INFO 21144 --- [weatherbot] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T08:40:35.082+05:00  INFO 21144 --- [weatherbot] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T08:40:35.147+05:00  INFO 21144 --- [weatherbot] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T08:40:35.608+05:00  INFO 21144 --- [weatherbot] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T08:40:35.652+05:00  INFO 21144 --- [weatherbot] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T08:40:36.744+05:00 ERROR 21144 --- [weatherbot] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+org.postgresql.util.PSQLException: Подсоединение по адресу localhost:5432 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:342) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.2.jar:42.6.2]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:428) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.example.weatherbot.WeatherbotApplication.main(WeatherbotApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.2.jar:42.6.2]
+	... 55 common frames omitted
+
+2024-10-11T08:40:36.754+05:00  WARN 21144 --- [weatherbot] [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.example.weatherbot.WeatherbotApplication.main(WeatherbotApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+
+2024-10-11T08:40:36.757+05:00 ERROR 21144 --- [weatherbot] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2024-10-11T08:40:36.758+05:00  WARN 21144 --- [weatherbot] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2024-10-11T08:40:36.763+05:00  INFO 21144 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-10-11T08:40:36.775+05:00  INFO 21144 --- [weatherbot] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-11T08:40:36.804+05:00 ERROR 21144 --- [weatherbot] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.example.weatherbot.WeatherbotApplication.main(WeatherbotApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 21 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:143) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:348) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	... 36 common frames omitted
+
+2024-10-11T08:45:40.653+05:00  INFO 4912 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 4912 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T08:45:40.656+05:00  INFO 4912 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T08:45:40.737+05:00  INFO 4912 --- [weatherbot] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T08:45:40.738+05:00  INFO 4912 --- [weatherbot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T08:45:40.738+05:00  INFO 4912 --- [weatherbot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T08:45:41.791+05:00  INFO 4912 --- [weatherbot] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T08:45:41.881+05:00  INFO 4912 --- [weatherbot] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2024-10-11T08:45:42.793+05:00  INFO 4912 --- [weatherbot] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T08:45:42.811+05:00  INFO 4912 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T08:45:42.811+05:00  INFO 4912 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T08:45:42.910+05:00  INFO 4912 --- [weatherbot] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T08:45:42.911+05:00  INFO 4912 --- [weatherbot] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2172 ms
+2024-10-11T08:45:43.214+05:00  INFO 4912 --- [weatherbot] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T08:45:43.315+05:00  INFO 4912 --- [weatherbot] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T08:45:43.367+05:00  INFO 4912 --- [weatherbot] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T08:45:43.723+05:00  INFO 4912 --- [weatherbot] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T08:45:43.768+05:00  INFO 4912 --- [weatherbot] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T08:45:44.829+05:00 ERROR 4912 --- [weatherbot] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+org.postgresql.util.PSQLException: Подсоединение по адресу localhost:5432 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:342) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.2.jar:42.6.2]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:428) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.example.weatherbot.WeatherbotApplication.main(WeatherbotApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.2.jar:42.6.2]
+	... 55 common frames omitted
+
+2024-10-11T08:45:44.846+05:00  WARN 4912 --- [weatherbot] [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.example.weatherbot.WeatherbotApplication.main(WeatherbotApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+
+2024-10-11T08:45:44.849+05:00 ERROR 4912 --- [weatherbot] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2024-10-11T08:45:44.849+05:00  WARN 4912 --- [weatherbot] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2024-10-11T08:45:44.853+05:00  INFO 4912 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-10-11T08:45:44.865+05:00  INFO 4912 --- [weatherbot] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-11T08:45:44.890+05:00 ERROR 4912 --- [weatherbot] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.example.weatherbot.WeatherbotApplication.main(WeatherbotApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 21 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:143) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:348) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	... 36 common frames omitted
+
+2024-10-11T08:46:29.815+05:00  INFO 14844 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 14844 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T08:46:29.817+05:00  INFO 14844 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T08:46:29.938+05:00  INFO 14844 --- [weatherbot] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T08:46:29.939+05:00  INFO 14844 --- [weatherbot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T08:46:29.940+05:00  INFO 14844 --- [weatherbot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T08:46:31.054+05:00  INFO 14844 --- [weatherbot] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T08:46:31.135+05:00  INFO 14844 --- [weatherbot] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2024-10-11T08:46:32.715+05:00  INFO 14844 --- [weatherbot] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T08:46:32.738+05:00  INFO 14844 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T08:46:32.739+05:00  INFO 14844 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T08:46:32.908+05:00  INFO 14844 --- [weatherbot] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T08:46:32.910+05:00  INFO 14844 --- [weatherbot] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2969 ms
+2024-10-11T08:46:33.479+05:00  INFO 14844 --- [weatherbot] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T08:46:33.588+05:00  INFO 14844 --- [weatherbot] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T08:46:33.649+05:00  INFO 14844 --- [weatherbot] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T08:46:34.073+05:00  INFO 14844 --- [weatherbot] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T08:46:34.117+05:00  INFO 14844 --- [weatherbot] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T08:46:34.393+05:00  INFO 14844 --- [weatherbot] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@485b0db6
+2024-10-11T08:46:34.397+05:00  INFO 14844 --- [weatherbot] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T08:46:35.689+05:00  INFO 14844 --- [weatherbot] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T08:46:35.756+05:00  INFO 14844 --- [weatherbot] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T08:46:37.426+05:00  WARN 14844 --- [weatherbot] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T08:46:39.254+05:00  INFO 14844 --- [weatherbot] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T08:46:39.420+05:00  INFO 14844 --- [weatherbot] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T08:46:39.477+05:00  INFO 14844 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 10.459 seconds (process running for 11.754)
+2024-10-11T08:55:14.482+05:00  INFO 14844 --- [weatherbot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T08:55:14.487+05:00  INFO 14844 --- [weatherbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T08:55:14.495+05:00  INFO 14844 --- [weatherbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T08:58:22.166+05:00  INFO 1460 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 1460 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T08:58:22.169+05:00  INFO 1460 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T08:58:22.236+05:00  INFO 1460 --- [weatherbot] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T08:58:22.236+05:00  INFO 1460 --- [weatherbot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T08:58:22.236+05:00  INFO 1460 --- [weatherbot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T08:58:23.387+05:00  INFO 1460 --- [weatherbot] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T08:58:23.530+05:00  INFO 1460 --- [weatherbot] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interface.
+2024-10-11T08:58:24.584+05:00  INFO 1460 --- [weatherbot] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T08:58:24.604+05:00  INFO 1460 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T08:58:24.605+05:00  INFO 1460 --- [weatherbot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T08:58:24.720+05:00  INFO 1460 --- [weatherbot] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T08:58:24.721+05:00  INFO 1460 --- [weatherbot] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2484 ms
+2024-10-11T08:58:24.949+05:00  INFO 1460 --- [weatherbot] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T08:58:25.036+05:00  INFO 1460 --- [weatherbot] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T08:58:25.084+05:00  INFO 1460 --- [weatherbot] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T08:58:25.415+05:00  INFO 1460 --- [weatherbot] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T08:58:25.451+05:00  INFO 1460 --- [weatherbot] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T08:58:25.654+05:00  INFO 1460 --- [weatherbot] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e2fe1fa
+2024-10-11T08:58:25.656+05:00  INFO 1460 --- [weatherbot] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T08:58:26.885+05:00  INFO 1460 --- [weatherbot] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T08:58:26.926+05:00  INFO 1460 --- [weatherbot] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T08:58:27.577+05:00  WARN 1460 --- [weatherbot] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T08:58:28.740+05:00  INFO 1460 --- [weatherbot] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T08:58:28.776+05:00  INFO 1460 --- [weatherbot] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T08:58:28.794+05:00  INFO 1460 --- [weatherbot] [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 7.266 seconds (process running for 8.246)
+2024-10-11T09:04:08.718+05:00  INFO 1460 --- [weatherbot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T09:04:08.724+05:00  INFO 1460 --- [weatherbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T09:04:08.731+05:00  INFO 1460 --- [weatherbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T09:11:19.911+05:00  INFO 10900 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 10900 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T09:11:19.914+05:00  INFO 10900 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T09:11:19.979+05:00  INFO 10900 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T09:11:19.979+05:00  INFO 10900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T09:11:19.980+05:00  INFO 10900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T09:11:21.011+05:00  INFO 10900 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T09:11:21.093+05:00  INFO 10900 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2024-10-11T09:11:21.930+05:00  INFO 10900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T09:11:21.946+05:00  INFO 10900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T09:11:21.946+05:00  INFO 10900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T09:11:22.042+05:00  INFO 10900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T09:11:22.042+05:00  INFO 10900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2061 ms
+2024-10-11T09:11:22.239+05:00  INFO 10900 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T09:11:22.312+05:00  INFO 10900 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T09:11:22.358+05:00  INFO 10900 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T09:11:22.662+05:00  INFO 10900 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T09:11:22.698+05:00  INFO 10900 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T09:11:22.920+05:00  INFO 10900 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68230e84
+2024-10-11T09:11:22.923+05:00  INFO 10900 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T09:11:24.073+05:00  INFO 10900 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T09:11:24.113+05:00  INFO 10900 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T09:11:24.835+05:00  WARN 10900 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T09:11:26.086+05:00  INFO 10900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T09:11:26.122+05:00  INFO 10900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T09:11:26.133+05:00  INFO 10900 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 6.825 seconds (process running for 7.65)
+2024-10-11T09:14:37.718+05:00  INFO 10900 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T09:14:37.749+05:00  INFO 10900 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T09:14:37.765+05:00  INFO 10900 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T09:18:31.158+05:00  INFO 19076 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 19076 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T09:18:31.161+05:00  INFO 19076 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T09:18:31.240+05:00  INFO 19076 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T09:18:31.241+05:00  INFO 19076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T09:18:31.241+05:00  INFO 19076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T09:18:32.494+05:00  INFO 19076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T09:18:32.585+05:00  INFO 19076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interface.
+2024-10-11T09:18:33.454+05:00  INFO 19076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T09:18:33.471+05:00  INFO 19076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T09:18:33.471+05:00  INFO 19076 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T09:18:33.555+05:00  INFO 19076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T09:18:33.556+05:00  INFO 19076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2314 ms
+2024-10-11T09:18:33.736+05:00  INFO 19076 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T09:18:33.808+05:00  INFO 19076 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T09:18:33.851+05:00  INFO 19076 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T09:18:34.174+05:00  INFO 19076 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T09:18:34.228+05:00  INFO 19076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T09:18:34.449+05:00  INFO 19076 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c056eb0
+2024-10-11T09:18:34.451+05:00  INFO 19076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T09:18:35.506+05:00  INFO 19076 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T09:18:35.552+05:00  INFO 19076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T09:18:36.284+05:00  WARN 19076 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T09:18:37.836+05:00  INFO 19076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T09:18:37.877+05:00  INFO 19076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T09:18:37.892+05:00  INFO 19076 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 7.513 seconds (process running for 8.493)
+2024-10-11T09:18:43.887+05:00  INFO 19076 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T09:18:43.889+05:00  INFO 19076 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T09:18:43.902+05:00  INFO 19076 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T09:18:53.877+05:00  INFO 20680 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 20680 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T09:18:53.880+05:00  INFO 20680 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T09:18:53.955+05:00  INFO 20680 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T09:18:53.956+05:00  INFO 20680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T09:18:53.956+05:00  INFO 20680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T09:18:55.011+05:00  INFO 20680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T09:18:55.088+05:00  INFO 20680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2024-10-11T09:18:55.860+05:00  INFO 20680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T09:18:55.873+05:00  INFO 20680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T09:18:55.873+05:00  INFO 20680 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T09:18:55.954+05:00  INFO 20680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T09:18:55.954+05:00  INFO 20680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1997 ms
+2024-10-11T09:18:56.157+05:00  INFO 20680 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T09:18:56.247+05:00  INFO 20680 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T09:18:56.287+05:00  INFO 20680 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T09:18:56.597+05:00  INFO 20680 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T09:18:56.632+05:00  INFO 20680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T09:18:56.798+05:00  INFO 20680 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1963e1f1
+2024-10-11T09:18:56.800+05:00  INFO 20680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T09:18:57.902+05:00  INFO 20680 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T09:18:57.943+05:00  INFO 20680 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T09:18:58.532+05:00  WARN 20680 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T09:18:59.719+05:00  INFO 20680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T09:18:59.758+05:00  INFO 20680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T09:18:59.771+05:00  INFO 20680 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 6.422 seconds (process running for 7.333)
+2024-10-11T09:25:19.291+05:00  INFO 20680 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T09:25:19.298+05:00  INFO 20680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T09:25:19.309+05:00  INFO 20680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T09:25:24.498+05:00  INFO 13840 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 13840 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T09:25:24.500+05:00  INFO 13840 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T09:25:24.563+05:00  INFO 13840 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T09:25:24.564+05:00  INFO 13840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T09:25:24.565+05:00  INFO 13840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T09:25:25.612+05:00  INFO 13840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T09:25:25.689+05:00  INFO 13840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2024-10-11T09:25:26.537+05:00  INFO 13840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T09:25:26.553+05:00  INFO 13840 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T09:25:26.553+05:00  INFO 13840 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T09:25:26.639+05:00  INFO 13840 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T09:25:26.639+05:00  INFO 13840 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2074 ms
+2024-10-11T09:25:26.847+05:00  INFO 13840 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T09:25:26.917+05:00  INFO 13840 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T09:25:26.978+05:00  INFO 13840 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T09:25:27.299+05:00  INFO 13840 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T09:25:27.342+05:00  INFO 13840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T09:25:27.555+05:00  INFO 13840 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f0b1680
+2024-10-11T09:25:27.556+05:00  INFO 13840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T09:25:28.620+05:00  INFO 13840 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T09:25:28.661+05:00  INFO 13840 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T09:25:29.307+05:00  WARN 13840 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T09:25:30.486+05:00  INFO 13840 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T09:25:30.529+05:00  INFO 13840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T09:25:30.540+05:00  INFO 13840 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 6.626 seconds (process running for 7.584)
+2024-10-11T09:26:11.113+05:00  INFO 13840 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T09:26:11.119+05:00  INFO 13840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T09:26:11.124+05:00  INFO 13840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T09:29:07.987+05:00  INFO 14248 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 14248 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T09:29:07.989+05:00  INFO 14248 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T09:29:08.058+05:00  INFO 14248 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T09:29:08.059+05:00  INFO 14248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T09:29:08.059+05:00  INFO 14248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T09:29:09.127+05:00  INFO 14248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T09:29:09.222+05:00  INFO 14248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.
+2024-10-11T09:29:10.109+05:00  INFO 14248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T09:29:10.123+05:00  INFO 14248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T09:29:10.124+05:00  INFO 14248 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T09:29:10.211+05:00  INFO 14248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T09:29:10.212+05:00  INFO 14248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2152 ms
+2024-10-11T09:29:10.396+05:00  INFO 14248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T09:29:10.471+05:00  INFO 14248 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T09:29:10.515+05:00  INFO 14248 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T09:29:10.811+05:00  INFO 14248 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T09:29:10.847+05:00  INFO 14248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T09:29:11.039+05:00  INFO 14248 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ac89919
+2024-10-11T09:29:11.042+05:00  INFO 14248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T09:29:12.201+05:00  INFO 14248 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T09:29:12.260+05:00  INFO 14248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T09:29:12.918+05:00  WARN 14248 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T09:29:14.156+05:00  INFO 14248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T09:29:14.195+05:00  INFO 14248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T09:29:14.206+05:00  INFO 14248 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 6.848 seconds (process running for 7.712)
+2024-10-11T09:31:32.180+05:00  INFO 14248 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T09:31:32.184+05:00  INFO 14248 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T09:31:32.192+05:00  INFO 14248 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T09:41:47.259+05:00  INFO 2432 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 2432 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T09:41:47.263+05:00  INFO 2432 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T09:41:47.322+05:00  INFO 2432 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T09:41:47.323+05:00  INFO 2432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T09:41:47.323+05:00  INFO 2432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T09:41:48.278+05:00  INFO 2432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T09:41:48.360+05:00  INFO 2432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interface.
+2024-10-11T09:41:49.130+05:00  INFO 2432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T09:41:49.144+05:00  INFO 2432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T09:41:49.145+05:00  INFO 2432 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T09:41:49.281+05:00  INFO 2432 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T09:41:49.281+05:00  INFO 2432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1957 ms
+2024-10-11T09:41:49.474+05:00  INFO 2432 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T09:41:49.546+05:00  INFO 2432 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T09:41:49.590+05:00  INFO 2432 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T09:41:49.899+05:00  INFO 2432 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T09:41:49.935+05:00  INFO 2432 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T09:41:50.126+05:00  INFO 2432 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@de2f766
+2024-10-11T09:41:50.127+05:00  INFO 2432 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T09:41:51.208+05:00  INFO 2432 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T09:41:51.247+05:00  INFO 2432 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T09:41:51.850+05:00  WARN 2432 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T09:41:53.001+05:00  INFO 2432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T09:41:53.035+05:00  INFO 2432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T09:41:53.048+05:00  INFO 2432 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 6.375 seconds (process running for 7.168)
+2024-10-11T09:57:22.552+05:00  INFO 2432 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T09:57:22.556+05:00  INFO 2432 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T09:57:22.565+05:00  INFO 2432 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T10:05:48.916+05:00  INFO 17172 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 17172 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T10:05:48.919+05:00  INFO 17172 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T10:05:48.992+05:00  INFO 17172 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T10:05:48.992+05:00  INFO 17172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T10:05:48.992+05:00  INFO 17172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T10:05:50.148+05:00  INFO 17172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T10:05:50.231+05:00  INFO 17172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+2024-10-11T10:05:51.234+05:00  INFO 17172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T10:05:51.250+05:00  INFO 17172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T10:05:51.251+05:00  INFO 17172 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T10:05:51.393+05:00  INFO 17172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T10:05:51.398+05:00  INFO 17172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2404 ms
+2024-10-11T10:05:51.710+05:00  INFO 17172 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T10:05:51.806+05:00  INFO 17172 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T10:05:51.866+05:00  INFO 17172 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T10:05:52.244+05:00  INFO 17172 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T10:05:52.285+05:00  INFO 17172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T10:05:52.523+05:00  INFO 17172 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63a2a0ac
+2024-10-11T10:05:52.526+05:00  INFO 17172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T10:05:53.865+05:00  INFO 17172 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T10:05:53.913+05:00  INFO 17172 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T10:05:54.757+05:00  WARN 17172 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T10:05:56.294+05:00  INFO 17172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T10:05:56.343+05:00  INFO 17172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T10:05:57.099+05:00  INFO 17172 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 8.845 seconds (process running for 9.736)
+2024-10-11T10:20:49.242+05:00  INFO 17172 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T10:20:49.246+05:00  INFO 17172 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T10:20:49.255+05:00  INFO 17172 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T10:20:59.136+05:00  INFO 9520 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 9520 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T10:20:59.138+05:00  INFO 9520 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T10:20:59.213+05:00  INFO 9520 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T10:20:59.214+05:00  INFO 9520 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T10:20:59.214+05:00  INFO 9520 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T10:21:00.246+05:00  INFO 9520 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T10:21:00.330+05:00  INFO 9520 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+2024-10-11T10:21:01.432+05:00  INFO 9520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T10:21:01.449+05:00  INFO 9520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T10:21:01.449+05:00  INFO 9520 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T10:21:01.551+05:00  INFO 9520 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T10:21:01.553+05:00  INFO 9520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2338 ms
+2024-10-11T10:21:01.815+05:00  INFO 9520 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T10:21:01.898+05:00  INFO 9520 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T10:21:01.946+05:00  INFO 9520 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T10:21:02.328+05:00  INFO 9520 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T10:21:02.376+05:00  INFO 9520 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T10:21:02.603+05:00  INFO 9520 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f7122db
+2024-10-11T10:21:02.607+05:00  INFO 9520 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T10:21:03.875+05:00  INFO 9520 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T10:21:03.918+05:00  INFO 9520 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T10:21:04.542+05:00  WARN 9520 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T10:21:05.628+05:00  INFO 9520 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T10:21:05.669+05:00  INFO 9520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T10:21:06.252+05:00  INFO 9520 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 7.695 seconds (process running for 8.597)
+2024-10-11T10:24:26.832+05:00  INFO 9520 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T10:24:26.837+05:00  INFO 9520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T10:24:26.844+05:00  INFO 9520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T10:24:33.815+05:00  INFO 4060 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 4060 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T10:24:33.818+05:00  INFO 4060 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T10:24:33.881+05:00  INFO 4060 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T10:24:33.881+05:00  INFO 4060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T10:24:33.881+05:00  INFO 4060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T10:24:34.853+05:00  INFO 4060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T10:24:34.935+05:00  INFO 4060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+2024-10-11T10:24:35.812+05:00  INFO 4060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T10:24:35.832+05:00  INFO 4060 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T10:24:35.832+05:00  INFO 4060 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T10:24:35.915+05:00  INFO 4060 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T10:24:35.916+05:00  INFO 4060 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2033 ms
+2024-10-11T10:24:36.102+05:00  INFO 4060 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T10:24:36.174+05:00  INFO 4060 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T10:24:36.217+05:00  INFO 4060 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T10:24:36.525+05:00  INFO 4060 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T10:24:36.561+05:00  INFO 4060 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T10:24:36.781+05:00  INFO 4060 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@36703f64
+2024-10-11T10:24:36.783+05:00  INFO 4060 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T10:24:37.887+05:00  INFO 4060 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T10:24:37.926+05:00  INFO 4060 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T10:24:38.536+05:00  WARN 4060 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T10:24:39.633+05:00  INFO 4060 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T10:24:39.670+05:00  INFO 4060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T10:24:40.260+05:00  INFO 4060 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 7.065 seconds (process running for 7.878)
+2024-10-11T10:32:47.873+05:00  INFO 4060 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T10:32:47.877+05:00  INFO 4060 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T10:32:47.893+05:00  INFO 4060 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T10:49:36.864+05:00  INFO 18920 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 18920 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T10:49:36.870+05:00  INFO 18920 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T10:49:36.946+05:00  INFO 18920 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T10:49:36.946+05:00  INFO 18920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T10:49:36.946+05:00  INFO 18920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T10:49:37.958+05:00  INFO 18920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T10:49:38.036+05:00  INFO 18920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interface.
+2024-10-11T10:49:38.842+05:00  INFO 18920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T10:49:38.858+05:00  INFO 18920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T10:49:38.858+05:00  INFO 18920 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T10:49:38.943+05:00  INFO 18920 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T10:49:38.944+05:00  INFO 18920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1996 ms
+2024-10-11T10:49:39.131+05:00  INFO 18920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T10:49:39.202+05:00  INFO 18920 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T10:49:39.243+05:00  INFO 18920 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T10:49:39.523+05:00  INFO 18920 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T10:49:39.555+05:00  INFO 18920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T10:49:39.739+05:00  INFO 18920 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ea8e3f
+2024-10-11T10:49:39.741+05:00  INFO 18920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T10:49:40.812+05:00  INFO 18920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T10:49:40.867+05:00  INFO 18920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T10:49:41.492+05:00  WARN 18920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T10:49:42.593+05:00  INFO 18920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T10:49:42.635+05:00  INFO 18920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T10:49:43.248+05:00  INFO 18920 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 7.013 seconds (process running for 7.843)
+2024-10-11T11:05:48.938+05:00  INFO 18920 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T11:05:48.943+05:00  INFO 18920 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T11:05:48.949+05:00  INFO 18920 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T11:06:00.646+05:00  INFO 3720 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 3720 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T11:06:00.648+05:00  INFO 3720 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T11:06:00.716+05:00  INFO 3720 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T11:06:00.716+05:00  INFO 3720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T11:06:00.717+05:00  INFO 3720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T11:06:01.634+05:00  INFO 3720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T11:06:01.710+05:00  INFO 3720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2024-10-11T11:06:02.496+05:00  INFO 3720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T11:06:02.510+05:00  INFO 3720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T11:06:02.510+05:00  INFO 3720 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T11:06:02.592+05:00  INFO 3720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T11:06:02.593+05:00  INFO 3720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1875 ms
+2024-10-11T11:06:02.778+05:00  INFO 3720 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T11:06:02.866+05:00  INFO 3720 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T11:06:02.932+05:00  INFO 3720 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T11:06:03.223+05:00  INFO 3720 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T11:06:03.258+05:00  INFO 3720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T11:06:03.444+05:00  INFO 3720 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@792c27f8
+2024-10-11T11:06:03.447+05:00  INFO 3720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T11:06:04.518+05:00  INFO 3720 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T11:06:04.556+05:00  INFO 3720 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T11:06:05.408+05:00  WARN 3720 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T11:06:07.300+05:00  INFO 3720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T11:06:07.378+05:00  INFO 3720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T11:06:08.235+05:00  INFO 3720 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 8.165 seconds (process running for 9.001)
+2024-10-11T11:06:53.735+05:00  INFO 3720 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11T11:06:53.735+05:00  INFO 3720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-11T11:06:53.736+05:00  INFO 3720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-11T11:09:12.407+05:00  INFO 3720 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T11:09:12.411+05:00  INFO 3720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T11:09:12.422+05:00  INFO 3720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T11:10:07.972+05:00  INFO 1808 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 1808 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T11:10:07.975+05:00  INFO 1808 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T11:10:08.043+05:00  INFO 1808 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T11:10:08.043+05:00  INFO 1808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T11:10:08.043+05:00  INFO 1808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T11:10:08.924+05:00  INFO 1808 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T11:10:09.004+05:00  INFO 1808 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
+2024-10-11T11:10:09.909+05:00  INFO 1808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T11:10:09.926+05:00  INFO 1808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T11:10:09.927+05:00  INFO 1808 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T11:10:10.039+05:00  INFO 1808 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T11:10:10.040+05:00  INFO 1808 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1995 ms
+2024-10-11T11:10:10.319+05:00  INFO 1808 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T11:10:10.403+05:00  INFO 1808 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T11:10:10.448+05:00  INFO 1808 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T11:10:10.748+05:00  INFO 1808 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T11:10:10.781+05:00  INFO 1808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T11:10:10.955+05:00  INFO 1808 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@16dfdc45
+2024-10-11T11:10:10.957+05:00  INFO 1808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T11:10:12.043+05:00  INFO 1808 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T11:10:12.092+05:00  INFO 1808 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T11:10:12.710+05:00  WARN 1808 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T11:10:13.863+05:00  INFO 1808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T11:10:13.903+05:00  INFO 1808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T11:10:14.598+05:00  INFO 1808 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 7.15 seconds (process running for 7.942)
+2024-10-11T11:10:20.926+05:00  INFO 1808 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11T11:10:20.926+05:00  INFO 1808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-11T11:10:20.928+05:00  INFO 1808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-11T11:11:52.947+05:00  INFO 1808 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T11:11:52.954+05:00  INFO 1808 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T11:11:52.966+05:00  INFO 1808 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T11:13:22.634+05:00  INFO 16988 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 16988 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T11:13:22.639+05:00  INFO 16988 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T11:13:22.707+05:00  INFO 16988 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T11:13:22.707+05:00  INFO 16988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T11:13:22.708+05:00  INFO 16988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T11:13:23.755+05:00  INFO 16988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T11:13:23.857+05:00  INFO 16988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2024-10-11T11:13:24.775+05:00  INFO 16988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T11:13:24.790+05:00  INFO 16988 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T11:13:24.790+05:00  INFO 16988 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T11:13:24.941+05:00  INFO 16988 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T11:13:24.943+05:00  INFO 16988 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2235 ms
+2024-10-11T11:13:25.179+05:00  INFO 16988 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T11:13:25.249+05:00  INFO 16988 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T11:13:25.296+05:00  INFO 16988 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T11:13:25.647+05:00  INFO 16988 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T11:13:25.682+05:00  INFO 16988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T11:13:25.858+05:00  INFO 16988 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f21f049
+2024-10-11T11:13:25.862+05:00  INFO 16988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T11:13:26.973+05:00  INFO 16988 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T11:13:27.012+05:00  INFO 16988 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T11:13:27.670+05:00  WARN 16988 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T11:13:28.909+05:00  INFO 16988 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T11:13:28.950+05:00  INFO 16988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T11:13:29.548+05:00  INFO 16988 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 7.509 seconds (process running for 8.388)
+2024-10-11T11:13:34.294+05:00  INFO 16988 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11T11:13:34.294+05:00  INFO 16988 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-11T11:13:34.295+05:00  INFO 16988 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-11T11:15:06.000+05:00  INFO 16988 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T11:15:06.005+05:00  INFO 16988 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T11:15:06.011+05:00  INFO 16988 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T11:15:32.976+05:00  INFO 9016 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 9016 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T11:15:32.981+05:00  INFO 9016 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T11:15:33.071+05:00  INFO 9016 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T11:15:33.072+05:00  INFO 9016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T11:15:33.074+05:00  INFO 9016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T11:15:34.102+05:00  INFO 9016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T11:15:34.173+05:00  INFO 9016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2024-10-11T11:15:35.073+05:00  INFO 9016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T11:15:35.087+05:00  INFO 9016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T11:15:35.087+05:00  INFO 9016 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T11:15:35.179+05:00  INFO 9016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T11:15:35.179+05:00  INFO 9016 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2104 ms
+2024-10-11T11:15:35.366+05:00  INFO 9016 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T11:15:35.447+05:00  INFO 9016 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T11:15:35.488+05:00  INFO 9016 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T11:15:35.762+05:00  INFO 9016 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T11:15:35.798+05:00  INFO 9016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T11:15:35.976+05:00  INFO 9016 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6047695
+2024-10-11T11:15:35.979+05:00  INFO 9016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T11:15:37.084+05:00  INFO 9016 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T11:15:37.141+05:00  INFO 9016 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T11:15:37.754+05:00  WARN 9016 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T11:15:38.882+05:00  INFO 9016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T11:15:38.919+05:00  INFO 9016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T11:15:39.492+05:00  INFO 9016 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 7.078 seconds (process running for 8.002)
+2024-10-11T11:15:49.390+05:00  INFO 9016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11T11:15:49.391+05:00  INFO 9016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-11T11:15:49.392+05:00  INFO 9016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-11T11:18:22.351+05:00  INFO 9016 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T11:18:22.356+05:00  INFO 9016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T11:18:22.363+05:00  INFO 9016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T11:18:29.768+05:00  INFO 17972 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 17972 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T11:18:29.771+05:00  INFO 17972 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T11:18:29.828+05:00  INFO 17972 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T11:18:29.828+05:00  INFO 17972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T11:18:29.828+05:00  INFO 17972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T11:18:30.735+05:00  INFO 17972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T11:18:30.814+05:00  INFO 17972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2024-10-11T11:18:31.637+05:00  INFO 17972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T11:18:31.652+05:00  INFO 17972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T11:18:31.653+05:00  INFO 17972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T11:18:31.743+05:00  INFO 17972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T11:18:31.743+05:00  INFO 17972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1914 ms
+2024-10-11T11:18:31.931+05:00  INFO 17972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T11:18:32.007+05:00  INFO 17972 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T11:18:32.049+05:00  INFO 17972 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T11:18:32.338+05:00  INFO 17972 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T11:18:32.369+05:00  INFO 17972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T11:18:32.549+05:00  INFO 17972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e7fc6a3
+2024-10-11T11:18:32.551+05:00  INFO 17972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T11:18:33.659+05:00  INFO 17972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T11:18:33.710+05:00  INFO 17972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T11:18:34.338+05:00  WARN 17972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T11:18:35.485+05:00  INFO 17972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T11:18:35.521+05:00  INFO 17972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T11:18:36.242+05:00  INFO 17972 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 7.025 seconds (process running for 7.816)
+2024-10-11T11:18:43.602+05:00  INFO 17972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11T11:18:43.602+05:00  INFO 17972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-11T11:18:43.606+05:00  INFO 17972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-10-11T11:22:02.539+05:00  INFO 17972 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T11:22:02.545+05:00  INFO 17972 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T11:22:02.574+05:00  INFO 17972 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-11T11:22:13.909+05:00  INFO 18264 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Starting WeatherbotApplication using Java 17.0.12 with PID 18264 (C:\Users\Ya.R&Y\Desktop\weatherbot\target\classes started by Ya.R&Y in C:\Users\Ya.R&Y\Desktop\weatherbot)
+2024-10-11T11:22:13.912+05:00  INFO 18264 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-11T11:22:14.002+05:00  INFO 18264 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Ya.R&Y\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/Ya.R&Y/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-11T11:22:14.003+05:00  INFO 18264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-11T11:22:14.003+05:00  INFO 18264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-11T11:22:15.008+05:00  INFO 18264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11T11:22:15.091+05:00  INFO 18264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
+2024-10-11T11:22:15.930+05:00  INFO 18264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-11T11:22:15.945+05:00  INFO 18264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-11T11:22:15.946+05:00  INFO 18264 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-10-11T11:22:16.042+05:00  INFO 18264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-11T11:22:16.043+05:00  INFO 18264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2038 ms
+2024-10-11T11:22:16.226+05:00  INFO 18264 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11T11:22:16.300+05:00  INFO 18264 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-11T11:22:16.341+05:00  INFO 18264 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-11T11:22:16.648+05:00  INFO 18264 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11T11:22:16.680+05:00  INFO 18264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-11T11:22:16.854+05:00  INFO 18264 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6050bc94
+2024-10-11T11:22:16.856+05:00  INFO 18264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-11T11:22:17.982+05:00  INFO 18264 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11T11:22:18.028+05:00  INFO 18264 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T11:22:18.797+05:00  WARN 18264 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11T11:22:19.963+05:00  INFO 18264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-11T11:22:20.004+05:00  INFO 18264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-11T11:22:20.629+05:00  INFO 18264 --- [restartedMain] c.e.weatherbot.WeatherbotApplication     : Started WeatherbotApplication in 7.364 seconds (process running for 8.262)
+2024-10-11T11:22:37.900+05:00  INFO 18264 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-11T11:22:37.901+05:00  INFO 18264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-11T11:22:37.902+05:00  INFO 18264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-11T11:45:11.043+05:00  INFO 18264 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11T11:45:11.048+05:00  INFO 18264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-11T11:45:11.053+05:00  INFO 18264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

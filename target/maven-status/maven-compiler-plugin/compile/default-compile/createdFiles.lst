@@ -1,0 +1,13 @@
+com\example\weatherbot\WeatherbotApplication.class
+com\example\weatherbot\model\WeatherResponse.class
+com\example\weatherbot\config\BotInitializer.class
+com\example\weatherbot\controllers\RequestLogController.class
+com\example\weatherbot\services\WeatherService.class
+com\example\weatherbot\logs\RequestLog.class
+com\example\weatherbot\services\RequestLogService.class
+com\example\weatherbot\model\WeatherResponse$Wind.class
+com\example\weatherbot\repositories\RequestLogRepository.class
+com\example\weatherbot\model\WeatherBot.class
+com\example\weatherbot\config\BotConfig.class
+com\example\weatherbot\model\WeatherResponse$Main.class
+com\example\weatherbot\model\WeatherResponse$Weather.class
