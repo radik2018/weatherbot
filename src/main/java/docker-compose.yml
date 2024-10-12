@@ -7,15 +7,15 @@ services:
       - "8080:8080"
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/BobrAITest  # Укажите нужное имя базы данных
-      - SPRING_DATASOURCE_USERNAME=radik                   # Укажите имя пользователя
-      - SPRING_DATASOURCE_PASSWORD=radik                   # Укажите пароль
+      - SPRING_DATASOURCE_USERNAME=radik                                   # Укажите имя пользователя
+      - SPRING_DATASOURCE_PASSWORD=radik                                   # Укажите пароль
 
   db:
     image: postgres:latest
     environment:
-      POSTGRES_USER: radik                               # Укажите имя пользователя
-      POSTGRES_PASSWORD: radik                            # Укажите пароль
-      POSTGRES_DB: BobrAITest                                      # Укажите нужное имя базы данных
+      POSTGRES_USER: radik                                                 # Укажите имя пользователя
+      POSTGRES_PASSWORD: radik                                             # Укажите пароль
+      POSTGRES_DB: BobrAITest                                              # Укажите нужное имя базы данных
     ports:
       - "5432:5432"
     volumes:

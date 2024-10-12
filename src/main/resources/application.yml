@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/BobrAITest  # Изменить на свое имя базы данных
-    username: radik                      # Изменить на свое имя пользователя в PostgreSQL
-    password: radik                      # Изменить на свой пароль пользователя в PostgreSQL
+    username: radik                                   # Изменить на свое имя пользователя в PostgreSQL
+    password: radik                                   # Изменить на свой пароль пользователя в PostgreSQL
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -12,6 +12,13 @@ spring:
     cache-names: weather
     caffeine:
       spec: maximumSize=500, expireAfterWrite=10m
+  main:
+    allow-bean-definition-overriding: true
+    web:
+      whitelabel:
+        enabled: false
+  openapi:
+    enabled: true
 
 telegram:
   bot:
@@ -23,3 +30,12 @@ logging:
     name: logs/app.log
   level:
     org.telegram: DEBUG
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+server:
+  port: 8080

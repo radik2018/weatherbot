@@ -20,17 +20,37 @@ public class WeatherService {
         try {
             WeatherResponse response = restTemplate.getForObject(url, WeatherResponse.class);
             if (response != null) {
-                return String.format("Температура: %s°C, Ощущаемая: %s°C, Погода: %s, Влажность: %s%%, Скорость ветра: %s м/с",
-                        response.getMain().getTemp(),
-                        response.getMain().getFeels_like(),
-                        response.getWeather().get(0).getDescription(),
-                        response.getMain().getHumidity(),
-                        response.getWind().getSpeed());
+                double temperature = response.getMain().getTemp();
+                double feelsLike = response.getMain().getFeels_like();
+                String weatherDescription = translateWeatherDescription(response.getWeather().get(0).getDescription());
+                int humidity = response.getMain().getHumidity();
+                double windSpeed = response.getWind().getSpeed();
+
+                return String.format("Температура: %.2f°C,\nОщущаемая: %.2f°C,\nПогода: %s,\nВлажность: %d%%,\nСкорость ветра: %.2f м/с",
+                        temperature, feelsLike, weatherDescription, humidity, windSpeed);
             } else {
                 return "Не удалось получить данные о погоде.";
             }
         } catch (RestClientException e) {
             return "Ошибка при обращении к API погоды: " + e.getMessage();
+        }
+    }
+
+    private String translateWeatherDescription(String description) {
+        switch (description.toLowerCase()) {
+            case "clear":
+                return "Ясно";
+            case "clouds":
+                return "Облачно";
+            case "rain":
+                return "Дождь";
+            case "snow":
+                return "Снег";
+            case "mist":
+                return "Туман";
+
+            default:
+                return description;
         }
     }
 }
